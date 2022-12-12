@@ -5,15 +5,15 @@ REST API for user authentication using sessions and a MySQL database built with 
 This is a simple REST API for user authentication using sessions and a MySQL database built with Node.js and Express.js. It is written in Object-Oriented Programming (OOP) style and includes custom error handling and middleware. The repository includes a simple frontend built with React for demonstration purposes.
 
 # Features
-•	User registration
-•	User login
-•	Use of bcrypt for password hashing
-•	Use of session and cookies for authentication
-•	Use of HTTPS with SSL certificates for secure communication
-•	Use of environment variables for storing sensitive information
-•	Custom error handling and middleware
-•	Use of MySQL for storing user information
-•	Simple frontend built with React for demonstration purposes
+- User registration
+- User login
+-	Use of bcrypt for password hashing
+-	Use of session and cookies for authentication
+-	Use of HTTPS with SSL certificates for secure communication
+-	Use of environment variables for storing sensitive information
+-	Custom error handling and middleware
+-	Use of MySQL for storing user information
+-	Simple frontend built with React for demonstration purposes
 
 # Getting Started
 1.	Clone the repository and install the dependencies by running npm install.
