@@ -79,7 +79,7 @@ export default function LogInPage({ loggedIn }) {
       )}
       <div className='login-container'>
         <div className='Heading'>
-          <h1>Login</h1>
+          {loading ? <h1>Logging in...</h1> : <h1>Login</h1>}
         </div>
         <form onSubmit={handleSubmit}>
           <div className='form-group'>
