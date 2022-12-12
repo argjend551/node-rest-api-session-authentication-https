@@ -44,9 +44,9 @@ module.exports = class Server {
       })
     );
 
-    this.app.use(express.json()); // to support JSON-encoded bodies
+    this.app.use(express.json());
 
-    this.app.use(bodyParser.urlencoded({ extended: true })); // to support URL-encoded bodies
+    this.app.use(bodyParser.urlencoded({ extended: true }));
 
     // Load the security certificate and private key
     const options = {
@@ -59,7 +59,7 @@ module.exports = class Server {
     // Create an HTTPS server
     const server = https.createServer(options, this.app);
 
-    // Start listening for incoming connections
+   
     server.listen(this.port, () => {
       console.log(`Backend listening on port ${this.port}`);
     });
