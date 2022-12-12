@@ -59,7 +59,7 @@ module.exports = class Server {
     // Create an HTTPS server
     const server = https.createServer(options, this.app);
 
-    // Start listening for incoming connections
+   
     server.listen(this.port, () => {
       console.log(`Backend listening on port ${this.port}`);
     });
