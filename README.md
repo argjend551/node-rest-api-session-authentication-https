@@ -1,8 +1,5 @@
-# node-rest-api-session-authentication-https
-REST API for user authentication using sessions and a MySQL database built with Node.js HTTPS server and Express
-
 # REST API
-This is a simple REST API for user authentication using sessions and a MySQL database built with Node.js and Express.js. It is written in Object-Oriented Programming (OOP) style and includes custom error handling and middleware. The repository includes a simple frontend built with React for demonstration purposes.
+This is a simple REST API for user authentication using sessions and a MySQL database built with Node.js HTTPS server and Express.js. It is written in Object-Oriented Programming (OOP) style and includes custom error handling and middleware. The repository includes a simple frontend built with React for demonstration purposes.
 
 # Features
 - User registration
