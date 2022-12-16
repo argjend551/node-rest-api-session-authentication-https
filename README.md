@@ -19,11 +19,11 @@ This is a simple REST API for user authentication using sessions and a MySQL dat
 4.	Start the server by running npm start in the root directory. This will start the backend server as well as the frontend.
 
 # Technologies
-•	Node.js
-•	Express.js
-•	MySQL
-•	bcrypt
-•	dotenv
-•	express-session
-•	https
-•	React.js
+-	Node.js
+-	Express.js
+-	MySQL
+-	bcrypt
+-	dotenv
+-	express-session
+-	https
+-	React.js
